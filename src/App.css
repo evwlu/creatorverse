@@ -1,0 +1,127 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.banner {
+  padding: 50px 0;
+  width: 100%;
+  position: flex;
+  top:0;
+  left:0;
+  text-align: center;
+  background-size: cover;
+  background-image: url('../src/assets/colormehue.png');;
+  background-position: 50% 50%;
+  color: black;
+  display: block;
+  font-size: 15px;
+  /* margin-bottom: 200px; */
+}
+
+.fancytext {
+  text-align: center;
+  font-size: 48px;
+  color: black;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;;
+}
+
+.fancytext:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.fancytext.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+.body {
+  position: flex;
+  margin-top: 00px;
+  padding: 10px;
+  color: black;
+  width: 100%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.button-container {
+  display: flex; 
+  align-items: center;
+}
+
+.custom-buttons {
+  background-color: #67adeb;
+  color: #fff;
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.pipe {
+  color: #333;
+  font-size: 36px;
+  margin: 0 10px;
+}
+
+.box {
+  background-color: #b0a6a6;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 300px; 
+  margin: 0 auto;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.id-card {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 0px;
+}
+
+.photo img {
+  height: 250px;
+  width: 350px;
+  border-radius: 5%;
+}
+
+.info {
+  flex: 1;
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+}

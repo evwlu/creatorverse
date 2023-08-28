@@ -1,0 +1,14 @@
+.creator_box {
+    background-color: #fff;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.02);
+    height: 300px;
+    width: 400px; 
+    margin: 0 auto;
+    margin-bottom: 50px;
+    filter: brightness(50%);
+    word-wrap: break-word;
+  }
